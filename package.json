@@ -61,5 +61,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/denis-gandel/SapiensUI.git"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^3.1.0",
+    "@storybook/mdx1-csf": "^1.0.0"
   }
 }

@@ -3,6 +3,11 @@ import Example from "./example";
 const meta: Meta<typeof Example> = {
   title: "Button",
   component: Example,
+  parameters: {
+    docs: {
+      autodocs: true,
+    },
+  },
 };
 
 export default meta;
@@ -12,8 +17,10 @@ export const Primary: Story = {
   args: {
     text: "Primary button",
     variant: "primary",
-    disabled: false,
-    onClick: () => console.log("Primary button :D"),
+    disabled: true,
+    onClick: () => {
+      console.log("Primary button :D");
+    },
   },
 };
 
