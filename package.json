@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky"
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "denis-gandel",
@@ -57,5 +57,9 @@
       "eslint --fix",
       "vitest run --changed"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denis-gandel/SapiensUI.git"
   }
 }
