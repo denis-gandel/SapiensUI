@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# STORYBOOK
+storybook-static
+*storybook.log
